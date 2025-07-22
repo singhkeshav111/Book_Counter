@@ -1,0 +1,14 @@
+{
+  "name": "book-show",
+  "version": "1.0.0",
+  "description": "A book website for book sell buy and view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Keshav Singh",
+  "license": "ISC"
+}
