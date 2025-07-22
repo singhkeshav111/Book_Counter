@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A book website for book sell buy and view",
   "main": "src/index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
@@ -13,6 +13,7 @@
   "author": "Keshav Singh",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
