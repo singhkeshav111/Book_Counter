@@ -36,13 +36,13 @@ const userSchema = new Schema(
 // password bcrypt process
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) return next();
-  this.password = bcrypt.hash(this.password, 10);
+  this.password =await bcrypt.hash(this.password, 10);
   next();
 });
 
 // password compare for correct hash
 userSchema.methods.isPasswordCorrect = async function (password) {
-  return bcrypt.compare(password, this.password);
+  return await bcrypt.compare(password, this.password);
 };
 
 // jwt authentication create accessToken
@@ -63,7 +63,7 @@ userSchema.methods.generateAccessToken = function () {
 
 // jwt authentication create refreshToken
 
-userSchema.methods.refreshToken = function () {
+userSchema.methods.generaterefreshToken = function () {
   jwt.sign(
     {
       _id: this._id,
