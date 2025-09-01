@@ -19,14 +19,14 @@ const Navbar = () => {
     { name: "Cart", path: "/cart" },
   ];
 
-  // Fetch current logged-in user
+  
 useEffect(() => {
   const token = localStorage.getItem("token");
   const storedUser = localStorage.getItem("user");
   if (token && storedUser) {
     setUser(JSON.parse(storedUser));
   } else if (token) {
-    // fallback: fetch current user
+     
     axios
       .get("http://localhost:4000/api/v1/users/profile", {
         headers: { Authorization: `Bearer ${token}` },
@@ -42,7 +42,7 @@ useEffect(() => {
       await axios.post("http://localhost:4000/api/v1/users/logoutUser", {}, { withCredentials: true });
       localStorage.removeItem("token");
       setUser(null);
-      navigate("/"); // redirect home
+      navigate("/"); 
     } catch (err) {
       console.error(err);
     }
@@ -51,10 +51,8 @@ useEffect(() => {
   return (
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-7xl z-50 bg-[#f0f0f0] text-[#0F1012] shadow-md rounded-2xl">
       <div className="flex items-center justify-between px-6 py-4">
-        {/* Logo */}
         <Link to="/" className="font-bold text-xl tracking-wide">BookStore</Link>
 
-        {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
             <Link
@@ -67,14 +65,13 @@ useEffect(() => {
           ))}
         </div>
 
-        {/* Right side */}
         <div className="flex items-center gap-4 relative">
           {!user ? (
             <Link
               to="/loginUser"
               className="px-5 py-2 bg-primary rounded-full font-medium hover:bg-primary-dull transition"
             >
-              Login
+              login
             </Link>
           ) : (
             <div className="relative">
@@ -114,7 +111,7 @@ useEffect(() => {
             to="/loginUser"
             className="px-5 py-2 bg-primary rounded-full font-medium hover:bg-primary-dull transition"
           >
-            Login
+            login
           </Link>
         </div>
       )}
