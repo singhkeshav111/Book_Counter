@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -51,16 +52,17 @@ const Home = () => {
       >
         {/* Left Text */}
         <div className="md:w-1/2 flex flex-col justify-center items-center text-center z-10 space-y-4 p-30">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mt-45">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mt-15">
             Discover Your Next Favorite Book
           </h1>
-          <p className="text-lg md:text-xl max-w-lg">
+          <p className="text-2xl mt-10 md:text-xl max-w-lg">
             Explore thousands of books across genres. Whether you love
             adventures, romance, or mysteries — we have something for you.
           </p>
-          <button className="mt-4 px-6 py-3 bg-[#CDCDCD]  cursor-pointer text-shadow-amber-200 rounded-full font-medium hover:bg-primary-dull transition">
-            Browse Books
-          </button>
+          <Link to="/books"
+          className="mt-4 px-6 py-3 bg-[#CDCDCD] cursor-pointer rounded-full font-medium hover:bg-primary-dull transition">
+            Browse Books <span className="ml-1 font-bold">→</span>
+          </Link>
         </div>
 
         <div className="md:w-1/2 flex justify-center items-center relative mt-8 md:mt-0">

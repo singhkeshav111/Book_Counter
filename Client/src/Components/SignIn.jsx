@@ -22,12 +22,6 @@ const SignIn = () => {
       );
 
       toast.success("Login successful! 🎉");
-
-      // Save token if your backend sends it
-      if (res.data.token) {
-        localStorage.setItem("token", res.data.token);
-      }
-
       navigate("/");
     } catch (error) {
       console.error("Login error:", error);
@@ -113,7 +107,7 @@ const SignIn = () => {
             Don’t have an account?{" "}
             <Link
               to="/signup"
-              className="text-[#3A5B22] font-semibold underline py-2 rounded-lg"
+              className="text-[#3A5B22] font-bold underline py-2 rounded-lg"
             >
               Sign Up
             </Link>

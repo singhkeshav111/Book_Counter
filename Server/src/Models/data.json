@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Book 1",
+    "author": "Author 1",
+    "genre": "Fiction",
+    "publishedAt": { "$date": "2021-01-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/1/200/300"
+  },
+  {
+    "title": "Book 2",
+    "author": "Author 2",
+    "genre": "Fantasy",
+    "publishedAt": { "$date": "2021-02-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/2/200/300"
+  },
+  {
+    "title": "Book 3",
+    "author": "Author 3",
+    "genre": "Science",
+    "publishedAt": { "$date": "2021-03-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/3/200/300"
+  },
+  {
+    "title": "Book 4",
+    "author": "Author 4",
+    "genre": "Mystery",
+    "publishedAt": { "$date": "2021-04-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/4/200/300"
+  },
+  {
+    "title": "Book 5",
+    "author": "Author 5",
+    "genre": "Romance",
+    "publishedAt": { "$date": "2021-05-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/5/200/300"
+  },
+  {
+    "title": "Book 6",
+    "author": "Author 6",
+    "genre": "Adventure",
+    "publishedAt": { "$date": "2021-06-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/6/200/300"
+  },
+  {
+    "title": "Book 7",
+    "author": "Author 7",
+    "genre": "Thriller",
+    "publishedAt": { "$date": "2021-07-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/7/200/300"
+  },
+  {
+    "title": "Book 8",
+    "author": "Author 8",
+    "genre": "Horror",
+    "publishedAt": { "$date": "2021-08-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/8/200/300"
+  },
+  {
+    "title": "Book 9",
+    "author": "Author 9",
+    "genre": "Biography",
+    "publishedAt": { "$date": "2021-09-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/9/200/300"
+  },
+  {
+    "title": "Book 10",
+    "author": "Author 10",
+    "genre": "Self-Help",
+    "publishedAt": { "$date": "2021-10-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/10/200/300"
+  },
+  {
+    "title": "Book 11",
+    "author": "Author 11",
+    "genre": "Fiction",
+    "publishedAt": { "$date": "2021-11-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/11/200/300"
+  },
+  {
+    "title": "Book 12",
+    "author": "Author 12",
+    "genre": "Fantasy",
+    "publishedAt": { "$date": "2021-12-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/12/200/300"
+  },
+  {
+    "title": "Book 13",
+    "author": "Author 13",
+    "genre": "Science",
+    "publishedAt": { "$date": "2022-01-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/13/200/300"
+  },
+  {
+    "title": "Book 14",
+    "author": "Author 14",
+    "genre": "Mystery",
+    "publishedAt": { "$date": "2022-02-01T00:00:00Z" },
+    "price": 219,
+    "coverImage": "https://picsum.photos/id/14/200/300"
+  },
+  {
+    "title": "Book 15",
+    "author": "Author 15",
+    "genre": "Romance",
+    "publishedAt": { "$date": "2022-03-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/15/200/300"
+  },
+  {
+    "title": "Book 16",
+    "author": "Author 16",
+    "genre": "Adventure",
+    "publishedAt": { "$date": "2022-04-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/16/200/300"
+  },
+  {
+    "title": "Book 17",
+    "author": "Author 17",
+    "genre": "Thriller",
+    "publishedAt": { "$date": "2022-05-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/17/200/300"
+  },
+  {
+    "title": "Book 18",
+    "author": "Author 18",
+    "genre": "Horror",
+    "publishedAt": { "$date": "2022-06-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/18/200/300"
+  },
+  {
+    "title": "Book 19",
+    "author": "Author 19",
+    "genre": "Biography",
+    "publishedAt": { "$date": "2022-07-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/19/200/300"
+  },
+  {
+    "title": "Book 20",
+    "author": "Author 20",
+    "genre": "Self-Help",
+    "publishedAt": { "$date": "2022-08-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/20/200/300"
+  },
+  {
+    "title": "Book 21",
+    "author": "Author 21",
+    "genre": "Fiction",
+    "publishedAt": { "$date": "2022-09-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/21/200/300"
+  },
+  {
+    "title": "Book 22",
+    "author": "Author 22",
+    "genre": "Fantasy",
+    "publishedAt": { "$date": "2022-10-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/22/200/300"
+  },
+  {
+    "title": "Book 23",
+    "author": "Author 23",
+    "genre": "Science",
+    "publishedAt": { "$date": "2022-11-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/23/200/300"
+  },
+  {
+    "title": "Book 24",
+    "author": "Author 24",
+    "genre": "Mystery",
+    "publishedAt": { "$date": "2022-12-01T00:00:00Z" },
+    "price": 219,
+    "coverImage": "https://picsum.photos/id/24/200/300"
+  },
+  {
+    "title": "Book 25",
+    "author": "Author 25",
+    "genre": "Romance",
+    "publishedAt": { "$date": "2023-01-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/25/200/300"
+  },
+  {
+    "title": "Book 26",
+    "author": "Author 26",
+    "genre": "Adventure",
+    "publishedAt": { "$date": "2023-02-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/26/200/300"
+  },
+  {
+    "title": "Book 27",
+    "author": "Author 27",
+    "genre": "Thriller",
+    "publishedAt": { "$date": "2023-03-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/27/200/300"
+  },
+  {
+    "title": "Book 28",
+    "author": "Author 28",
+    "genre": "Horror",
+    "publishedAt": { "$date": "2023-04-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/28/200/300"
+  },
+  {
+    "title": "Book 29",
+    "author": "Author 29",
+    "genre": "Biography",
+    "publishedAt": { "$date": "2023-05-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/29/200/300"
+  },
+  {
+    "title": "Book 30",
+    "author": "Author 30",
+    "genre": "Self-Help",
+    "publishedAt": { "$date": "2023-06-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/30/200/300"
+  },
+  {
+    "title": "Book 31",
+    "author": "Author 31",
+    "genre": "Fiction",
+    "publishedAt": { "$date": "2023-07-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/31/200/300"
+  },
+  {
+    "title": "Book 32",
+    "author": "Author 32",
+    "genre": "Fantasy",
+    "publishedAt": { "$date": "2023-08-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/32/200/300"
+  },
+  {
+    "title": "Book 33",
+    "author": "Author 33",
+    "genre": "Science",
+    "publishedAt": { "$date": "2023-09-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/33/200/300"
+  },
+  {
+    "title": "Book 34",
+    "author": "Author 34",
+    "genre": "Mystery",
+    "publishedAt": { "$date": "2023-10-01T00:00:00Z" },
+    "price": 219,
+    "coverImage": "https://picsum.photos/id/34/200/300"
+  },
+  {
+    "title": "Book 35",
+    "author": "Author 35",
+    "genre": "Romance",
+    "publishedAt": { "$date": "2023-11-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/35/200/300"
+  },
+  {
+    "title": "Book 36",
+    "author": "Author 36",
+    "genre": "Adventure",
+    "publishedAt": { "$date": "2023-12-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/36/200/300"
+  },
+  {
+    "title": "Book 37",
+    "author": "Author 37",
+    "genre": "Thriller",
+    "publishedAt": { "$date": "2024-01-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/37/200/300"
+  },
+  {
+    "title": "Book 38",
+    "author": "Author 38",
+    "genre": "Horror",
+    "publishedAt": { "$date": "2024-02-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/38/200/300"
+  },
+  {
+    "title": "Book 39",
+    "author": "Author 39",
+    "genre": "Biography",
+    "publishedAt": { "$date": "2024-03-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/39/200/300"
+  },
+  {
+    "title": "Book 40",
+    "author": "Author 40",
+    "genre": "Self-Help",
+    "publishedAt": { "$date": "2024-04-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/40/200/300"
+  },
+  {
+    "title": "Book 41",
+    "author": "Author 41",
+    "genre": "Fiction",
+    "publishedAt": { "$date": "2024-05-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/41/200/300"
+  },
+  {
+    "title": "Book 42",
+    "author": "Author 42",
+    "genre": "Fantasy",
+    "publishedAt": { "$date": "2024-06-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/42/200/300"
+  },
+  {
+    "title": "Book 43",
+    "author": "Author 43",
+    "genre": "Science",
+    "publishedAt": { "$date": "2024-07-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/43/200/300"
+  },
+  {
+    "title": "Book 44",
+    "author": "Author 44",
+    "genre": "Mystery",
+    "publishedAt": { "$date": "2024-08-01T00:00:00Z" },
+    "price": 219,
+    "coverImage": "https://picsum.photos/id/44/200/300"
+  },
+  {
+    "title": "Book 45",
+    "author": "Author 45",
+    "genre": "Romance",
+    "publishedAt": { "$date": "2024-09-01T00:00:00Z" },
+    "price": 249,
+    "coverImage": "https://picsum.photos/id/45/200/300"
+  },
+  {
+    "title": "Book 46",
+    "author": "Author 46",
+    "genre": "Adventure",
+    "publishedAt": { "$date": "2024-10-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/46/200/300"
+  },
+  {
+    "title": "Book 47",
+    "author": "Author 47",
+    "genre": "Thriller",
+    "publishedAt": { "$date": "2024-11-01T00:00:00Z" },
+    "price": 209,
+    "coverImage": "https://picsum.photos/id/47/200/300"
+  },
+  {
+    "title": "Book 48",
+    "author": "Author 48",
+    "genre": "Horror",
+    "publishedAt": { "$date": "2024-12-01T00:00:00Z" },
+    "price": 259,
+    "coverImage": "https://picsum.photos/id/48/200/300"
+  },
+  {
+    "title": "Book 49",
+    "author": "Author 49",
+    "genre": "Biography",
+    "publishedAt": { "$date": "2025-01-01T00:00:00Z" },
+    "price": 299,
+    "coverImage": "https://picsum.photos/id/49/200/300"
+  },
+  {
+    "title": "Book 50",
+    "author": "Author 50",
+    "genre": "Self-Help",
+    "publishedAt": { "$date": "2025-02-01T00:00:00Z" },
+    "price": 199,
+    "coverImage": "https://picsum.photos/id/50/200/300"
+  }
+]
